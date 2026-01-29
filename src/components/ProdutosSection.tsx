@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import productManual from "@/assets/product-stretch-manual.jpg";
 import productAuto from "@/assets/product-stretch-auto.jpg";
 import productColorido from "@/assets/product-stretch-colorido.jpg";
-import productTubetes from "@/assets/product-termo.png";
+import productTubetes from "@/assets/stretchshrink.png";
 import { FaWhatsapp } from "react-icons/fa";
 
 const produtos = [
@@ -25,7 +25,7 @@ const produtos = [
   },
   {
     image: productTubetes,
-    title: "Stretch Termocontratil",
+    title: "Stretch Shrink & PEBD",
     description: "A base sólida para seus enrolados: papel, filmes, etiquetas e muito mais.",
   },
 ];
