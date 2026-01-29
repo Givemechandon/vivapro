@@ -10,7 +10,7 @@ const FooterCTA = () => {
       <section className="py-24 relative">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-dark-green via-teal/20 to-dark-green" />
-        
+
         {/* Animated sweep */}
         <motion.div
           className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent"
@@ -29,9 +29,13 @@ const FooterCTA = () => {
             {/* Title with glow */}
             <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black mb-6 sm:mb-8 px-2">
               <span className="text-foreground">PRONTO PARA </span>
-              <span className="text-gradient-gold animate-pulse-glow inline-block px-1 sm:px-2">REVOLUCIONAR</span>
+              <span className="text-gradient-gold animate-pulse-glow inline-block px-1 sm:px-2">
+                REVOLUCIONAR
+              </span>
               <br />
-              <span className="text-gradient-gold">A PROTEÇÃO DA SUA CARGA?</span>
+              <span className="text-gradient-gold">
+                A PROTEÇÃO DA SUA CARGA?
+              </span>
             </h2>
 
             {/* CTA Buttons */}
@@ -41,40 +45,44 @@ const FooterCTA = () => {
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto max-w-[280px] sm:max-w-none"
               >
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   className="gradient-gold text-primary-foreground font-black text-xs sm:text-sm md:text-base px-4 sm:px-8 md:px-10 py-5 sm:py-6 md:py-8 animate-pulse-glow hover-shake w-full"
                   asChild
                 >
-                  <a 
+                  <a
                     href="https://wa.me/5511955952409"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Building2 className="mr-2 h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 flex-shrink-0" />
-                    <span className="truncate">🛒 COMPRE COMO EMPRESA (CNPJ)</span>
+                    <span className="truncate">
+                      🛒 COMPRE COMO EMPRESA (CNPJ)
+                    </span>
                   </a>
                 </Button>
               </motion.div>
-              
+
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto max-w-[280px] sm:max-w-none"
               >
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   variant="outline"
                   className="border-2 border-secondary bg-secondary/20 text-foreground font-bold text-xs sm:text-sm md:text-base px-4 sm:px-8 md:px-10 py-5 sm:py-6 md:py-8 hover:bg-secondary/40 hover-shake w-full"
                   asChild
                 >
-                  <a 
+                  <a
                     href="https://wa.me/5511955952409"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <User className="mr-2 h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 flex-shrink-0" />
-                    <span className="truncate">👤 COMPRE COMO PESSOA FÍSICA (CPF)</span>
+                    <span className="truncate">
+                      👤 COMPRE COMO PESSOA FÍSICA (CPF)
+                    </span>
                   </a>
                 </Button>
               </motion.div>
@@ -91,7 +99,9 @@ const FooterCTA = () => {
               >
                 <MessageCircle className="h-8 w-8 text-green-500" />
                 <span className="text-sm text-muted-foreground">WhatsApp</span>
-                <span className="font-semibold text-foreground">+55 (11) 95595-2409</span>
+                <span className="font-semibold text-foreground">
+                  +55 (11) 95595-2409
+                </span>
               </motion.a>
 
               <motion.a
@@ -101,7 +111,9 @@ const FooterCTA = () => {
               >
                 <Phone className="h-8 w-8 text-secondary" />
                 <span className="text-sm text-muted-foreground">Telefone</span>
-                <span className="font-semibold text-foreground">+55 (11) 95595-2409</span>
+                <span className="font-semibold text-foreground">
+                  +55 (11) 95595-2409
+                </span>
               </motion.a>
 
               <motion.a
@@ -111,7 +123,9 @@ const FooterCTA = () => {
               >
                 <Mail className="h-8 w-8 text-primary" />
                 <span className="text-sm text-muted-foreground">E-mail</span>
-                <span className="font-semibold text-foreground">contato@vivapro.com.br</span>
+                <span className="font-semibold text-foreground">
+                  contato@vivapro.com.br
+                </span>
               </motion.a>
             </div>
           </motion.div>
@@ -122,13 +136,10 @@ const FooterCTA = () => {
       <div className="bg-background/50 border-t border-border py-8">
         <div className="container px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <img 
-              src={logo} 
-              alt="Vivapro Packaging" 
-              className="h-10"
-            />
+            <img src={logo} alt="Vivapro Packaging" className="h-10" />
             <p className="text-sm text-muted-foreground text-center">
-              © {new Date().getFullYear()} Vivapro Packaging. Todos os direitos reservados.
+              © {new Date().getFullYear()} Vivapro Packaging. Todos os direitos
+              reservados.
             </p>
             <p className="text-sm text-muted-foreground">
               A Essência da Proteção em Movimento.
