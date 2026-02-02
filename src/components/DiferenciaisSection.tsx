@@ -45,7 +45,7 @@ const DiferenciaisSection = () => {
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4">
             <span className="text-foreground">POR QUE O </span>
-            <span className="text-gradient-gold">STRETCH VIVAPRO</span>
+            <span className="text-gradient-gold">FILME STRETCH VIVAPRO</span>
             <span className="text-foreground"> É A SUA MELHOR ESCOLHA?</span>
           </h2>
         </motion.div>

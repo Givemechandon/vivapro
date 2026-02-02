@@ -89,7 +89,7 @@ const FooterCTA = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
               <motion.a
                 href="https://wa.me/5511955952409"
                 target="_blank"
@@ -99,18 +99,6 @@ const FooterCTA = () => {
               >
                 <MessageCircle className="h-8 w-8 text-green-500" />
                 <span className="text-sm text-muted-foreground">WhatsApp</span>
-                <span className="font-semibold text-foreground">
-                  +55 (11) 95595-2409
-                </span>
-              </motion.a>
-
-              <motion.a
-                href="tel:+5511955952409"
-                className="flex flex-col items-center gap-2 p-4 glass rounded-xl hover:bg-muted/50 transition-colors"
-                whileHover={{ y: -5 }}
-              >
-                <Phone className="h-8 w-8 text-secondary" />
-                <span className="text-sm text-muted-foreground">Telefone</span>
                 <span className="font-semibold text-foreground">
                   +55 (11) 95595-2409
                 </span>

@@ -10,23 +10,27 @@ import { FaWhatsapp } from "react-icons/fa";
 const produtos = [
   {
     image: productManual,
-    title: "Stretch Manual",
-    description: "Agilidade e praticidade para paletização manual com máxima segurança.",
+    title: "Filme Stretch Manual",
+    description:
+      "Agilidade e praticidade para paletização manual com máxima segurança.",
   },
   {
     image: productAuto,
-    title: "Stretch Automático",
-    description: "Alto rendimento e resistência para linhas de produção de alta demanda.",
+    title: "Filme Stretch Automático",
+    description:
+      "Alto rendimento e resistência para linhas de produção de alta demanda.",
   },
   {
     image: productColorido,
-    title: "Stretch Colorido",
-    description: "Organize, identifique e proteja com estilo e segurança extra.",
+    title: "Filme Stretch Colorido",
+    description:
+      "Organize, identifique e proteja com estilo e segurança extra.",
   },
   {
     image: productTubetes,
-    title: "Stretch Shrink & PEBD",
-    description: "A base sólida para seus enrolados: papel, filmes, etiquetas e muito mais.",
+    title: "Filme Termo-Contrátil Shrink LISO PEBD",
+    description:
+      "A base sólida para seus enrolados: papel, filmes, etiquetas e muito mais.",
   },
 ];
 
@@ -43,9 +47,9 @@ const ProdutosSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4">
-            <span className="text-gradient-gold">A COBERTURA PERFEITA</span>
+            <span className="text-gradient-gold">A EMBALAGEM IDEAL</span>
             <br className="hidden md:block" />
-            <span className="text-gradient-gold"> PARA CADA NECESSIDADE.</span>
+            <span className="text-gradient-gold"> PARA CADA TIPO DE APLICAÇÃO</span>
           </h2>
         </motion.div>
 

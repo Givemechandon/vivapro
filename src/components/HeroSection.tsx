@@ -54,20 +54,10 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-4 sm:mb-6 leading-tight px-2"
           >
-            <span className="text-gradient-gold">A MAIOR DISTRIBUIDORA</span>
+            <span className="text-gradient-gold">TODOS OS TIPOS</span>
             <br />
-            <span className="text-gradient-gold">DE FILME STRETCH DO BRASIL</span>
+            <span className="text-gradient-gold">DE FILME STRETCH VOCÊ ENCONTRA AQUI</span>
           </motion.h1>
-
-          {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto"
-          >
-            Filme Stretch de Alta Performance e Tubetes que Elevam o Padrão.
-          </motion.p>
           
           <motion.p
             initial={{ opacity: 0 }}
