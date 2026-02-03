@@ -112,7 +112,7 @@ const FooterCTA = () => {
                 <Mail className="h-8 w-8 text-primary" />
                 <span className="text-sm text-muted-foreground">E-mail</span>
                 <span className="font-semibold text-foreground">
-                  contato@vivapro.com.br
+                  contato@vivapropackaging.com.br
                 </span>
               </motion.a>
             </div>
